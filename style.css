@@ -114,7 +114,7 @@
         .cd-intro p {    
           font-size: 1rem;
           width:85%;
-          text-align: center;
+          text-align: left;
         }
         #head {
           text-align: center;
@@ -277,7 +277,7 @@
       #explanation p {
         
         font-size:3rem;
-        text-align:center;
+        text-align:left;
       }
 
       h1 {
