@@ -1,0 +1,224 @@
+<DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width" />
+  	<title>Yasufumi Saito</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css"> <!-- CSS reset -->
+        
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+    <style type="text/css" media="screen">
+      .button {
+        font-size:1.3em;
+        font-weight: bold;
+        display: inline-block;
+        padding: .5em 2em;
+        border: 2px solid #fff;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        transition: all .7s;
+        margin-top:3em;
+      }
+      .button:hover {
+        background-color: rgba(255,255,255,.3);
+        border-radius: 30px;
+      }
+
+      .social {
+        margin:20px;
+      }
+
+      .social a {
+        margin:5px;
+      }
+
+      .rights {
+        padding-bottom: 20px;
+      }
+      
+    </style>
+  </head>
+  <body>
+      <!-- 1st -->
+      <div id="particle-slider">
+          <div class="slides">
+            <!-- Replace the 'data-src'-attribute with one of the pictures below,
+                 to see how it works with other images -->
+            <div class="slide" data-src="img/Logo.png">
+            </div>
+          </div>
+        <canvas class="draw"></canvas>
+      </div>
+
+      <!-- 2nd -->
+      <section class="cd-intro">
+        <h1 id="head" class="cd-headline letters type">
+          <span style="color:white">Hello, My name is Yasufumi Saito<br /> I'm a </span> 
+          <span class="cd-words-wrapper waiting">
+            <b class="is-visible">Digital Journalist</b>
+            <b>Front-end Developer</b>
+            <b>Web Designer</b>
+          </span>
+        </h1>
+        <img class="figure" src="img/Yasu.png" alt="">
+        <div id="about">
+          <p>I stand on a sweet spot where journalism and web technology intersect. To keep being a forerunner, I want to be a part of the future of journalism.</p><br />
+          <p>Before coming to the U.S., I used to work for a Japanese local daily for almost seven years. It was stable and peaceful life, but I threw it away.</p><br />
+          <p>Why?</p><br />        
+          <p>Because I noticed we were in the midst of the biggest transition from print to digital, when a journalist can cast a spell on people by coding.<p><br />
+          <p>We journalists can be wizards, and stories can be more immersive, interactive and entertaining as people want.</p><br />
+          <p>Two years has past since I quit the local daily. Now, I'm here to <em style="clear:both;color:#EFC206">revolutionize</em> digital journalism.</p>     
+        </div>
+      </section>
+
+      <!-- 3rd -->    
+      <div class="cd-gallery-container">
+        <h1 id="head2" style="color:#EFC206;font-size:5rem;text-align:center;font-weight:bold;margin-bottom:0">Portfolio</h1>
+        <div id="explanation" style="color: #50A6C2;margin:0 auto;padding: 1.2em 0 1.2em 0;font-size:1.4rem;text-align:center;font-weight:200;line-height: 1.2;width:50%">
+        <p>My recent work is divided into 3 categories; <strong>Business Reporting</strong>, <strong>Interactive Storytelling</strong> and <strong>New Media</strong>. </p>
+        <p>Along with a seven-year experience as a general reporter, now I can write, code, design and even launch new media.</p>
+        </div>
+
+          <nav class="cd-filter">
+            <ul>
+              <li class="placeholder"> 
+                <a data-type="red" href="#0">Reporting</a> <!-- selected option on mobile -->
+              </li> 
+
+              <li>
+                <a class="selected" data-type="red" href="#0">Reporting</a>
+              </li>
+
+              <li>
+                <a data-type="blue" href="#0">Interactive</a>
+              </li>
+
+              <li>
+                <a data-type="green" href="#0">New Media</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="cd-gallery cd-container">
+            <li>
+              <ul class="cd-item-wrapper">
+                <li data-type="red" class="is-visible">
+                  <a href="http://news.medill.northwestern.edu/chicago/pork-prices-plunge-threatening-the-greatest-collapse/" target="_blank"><img src="img/pork.jpg" alt="thumbnail"></a>
+                  <p>Commodity price story about lean hogs - the name of pork in the market.</p>
+                </li>
+
+                <li data-type="blue" class="is-hidden">
+                  <a href="http://www.medillnews847.com/madeinchicago/" target="_blank"><img src="img/madeinchicago.png" alt="thumbnail"></a>
+                  <p>Made in Chicago is a mosaic of stories. I produced the splash page and two stories.</p>
+                </li>
+
+                <li data-type="green" class="is-hidden">
+                  <a href="https://projects.knightlab.com/projects/influence" target="_blank"><img src="img/hashtaginfluence.png" alt="thumbnail"></a>
+                  <p>#influence is a web service to find an influencer. I mainly did design work.</p>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="cd-item-wrapper">
+                <li data-type="red" class="is-visible">
+                  <a href="http://news.medill.northwestern.edu/chicago/10-things-to-know-about-the-latest-u-s-gdp-report/" target="_blank"><img src="img/GDP.png" alt="thumbnail"></a>
+                  <p>An analytical story about the U.S. GDP. Data and number are my passion.</p>
+                </li>
+
+                <li data-type="blue" class="is-hidden">
+                  <a href="http://www.medillnews847.com/madeinchicago/bungalow/index.html" target="_blank"><img src="img/bangalow.png" alt="thumbnail"></a>
+                  <p>An interactive story about Chicago bangalow. I produced multimedia and interactive pieces.</p>
+                </li>
+                
+                <li data-type="green" class="is-hidden">
+                  <a href="http://knowmo.bitballoon.com" target="_blank"><img src="img/knowmo.png" alt="thumbnail"></a>
+                  <p>KnowMo is a news gamification company to revolutionalize news consumption for millennials.</p>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="cd-item-wrapper">
+                <li data-type="red" class="is-visible">
+                  <a href="http://news.medill.northwestern.edu/chicago/cme-will-see-further-stretch/" target="_blank"><img src="img/CME.png" alt="thumbnail"></a>
+                  <p>Company's outlook story on CME group. I know how important EPS and EBITDA are.</p>
+                </li>
+
+                <li data-type="blue" class="is-hidden">
+                  <a href="http://www.medillnews847.com/madeinchicago/midwife/index.html" target="_blank"><img src="img/homebirth.png" alt="thumbnail"></a>
+                  <p>An interactive story about midwife. I produced all the design, interactive pieces.</p>
+                </li>
+                
+                <li data-type="green" class="is-hidden">
+                  <a href="https://projects.invisionapp.com/share/JB3V82NFD#/screens" target="_blank"><img src="img/quotegate.png" alt="thumbnail"></a>
+                  <p>A matching quote game where you unwittingly learn important news</p>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="cd-item-wrapper">
+                <li data-type="red" class="is-visible">
+                  <a href="#" target="_blank"><img src="img/Italy.jpg" alt="thumbnail"></a>
+                  <p>Country economic report on Italy. I know how to see numbers.</p>
+                </li>
+
+                <li data-type="blue" class="is-hidden">
+                  <a href="https://slate.adobe.com/a/2q8BN?v=52" target="_blank"><img src="img/evanston.png" alt="thumbnail"></a>
+                  <p>A photo story by using Adobe Slate. I took all the photographs.</p>
+                </li>
+                
+                <li data-type="green" class="is-hidden">
+                  <a href="https://invis.io/6N3VB9V4K" target="_blank"><img src="img/newstradamus.png" alt="thumbnail"></a>
+                  <p>A newsgame where users predict the result of future news events.</p>
+                </li>
+              </ul>
+            </li>
+          </ul> <!-- cd-gallery -->
+        </div> <!-- cd-gallery-container -->     
+      
+
+      <!-- 4th -->
+      <footer style="background-color:black;text-align:center">
+      <a class="button" href="img/Resume.pdf" download>Need Resume?</a>
+      <div class="social">
+        <a href="https://twitter.com/YasufumiSaito" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+        <a href="https://www.linkedin.com/pub/yasufumi-saito/a7/653/937" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+        <a href="https://github.com/YasufumiSaito" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+      </div>
+      <div class="rights">
+        <p>Yasufumi Saito &copy; 2015</p>
+      </div>
+      </footer> 
+
+      <!-- <script src="js/jquery-2.1.1.js"></script> -->
+      <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="js/main.js"></script> <!-- Resource jQuery -->
+      <script src="js/filter.js"></script>
+      <script src="js/classie.js"></script>
+      <script src="js/particleslider-current.min.js"></script>
+      <script type="text/javascript">
+        var ps = new ParticleSlider({
+            mouseForce:3000,
+            ptlGap: 0,
+            ptlSize: 1
+        });
+
+        var ptl = new ps.Particle(ps);
+            ptl.move();
+            ptl.velocityX += 10;
+            ptl.velocityY += 10;
+            ptl.gravityX = 10;
+            ptl.gravityY = 10;
+                                              
+      </script>
+  </body>
+</html>
