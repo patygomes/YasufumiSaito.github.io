@@ -60,7 +60,6 @@
         float: right;
         text-align: right;
         display: inline;
-        max-height:71%;
         padding-right: 10%;
         margin:0;
       }
@@ -99,16 +98,16 @@
 
       @media (max-width: 650px){
         .cd-headline {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
         span {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: bold;
         /*font-family: Helvetica;*/
         }
         b {
           color:white;
-          font-size: 1.3rem;
+          font-size: 1.2rem;
           font-style: normal;
         }
         .cd-intro p {    
@@ -123,7 +122,7 @@
           font-size: 2em !important;
         }
         #explanation {
-          width:85% !important;
+          width:80% !important;
           font-size: 1em !important;
         }
       }
